@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="OMS" Class="toSQLDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=sv-ts33\invsib;Initial Catalog=OMS;Persist Security Info=True;User ID=sa" SettingsObjectName="OMSReports.Properties.Settings" SettingsPropertyName="OMSConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.RegistryBase" Member="RegistryBase">
+    <Type Name="RegistryBase">
+      <Column Name="hist_nom" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dat_post" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dat_wypis" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="name_1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="name_2" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="name_3" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="pol" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dat_born" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="mkb1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="rab_place" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="otdel" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="polis_ser" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="polis_num" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="company" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="rezult" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="region" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="lpu_napr" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="full_sum" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="dat_reestr" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="sum1" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="spr_soc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="ident_m" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="subject" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="pasp_num" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="pasp_ser" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="napr_num" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="napr_dat" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="mr" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="wid_prof" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="c_doc" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="kladr" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="cel" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="date_n" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="date_e" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="cod_usl" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="profil" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="vpolis" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="oper_cnt" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="vidp_amb" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="napr_type" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="id_vmp" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="napr_dir" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="fl_stm" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="spr_lgt" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="spr_invld" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="enp" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="administrator" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="mo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="usl_krat" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="add_dat" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
